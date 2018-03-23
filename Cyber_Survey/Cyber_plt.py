@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn; seaborn.set()
 
-data = pd.read_csv('Desktop/Cyber_Dataset/Cybersecurity_survey.csv')
+data = pd.read_csv('Cybersecurity_survey.csv')
 
 web = np.array(data['INTERNET'])
 
